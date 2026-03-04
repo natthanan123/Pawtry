@@ -1,1 +1,3 @@
 # Pawtry
+
+prompt : "Act as an Expert Database Architect. Design a lean MySQL relational database schema for a Task Management System. The schema must include 4 tables: 'users', 'categories', 'statuses', and 'tasks'. Exclude unnecessary fields like timestamps (created_at, updated_at), emails, and priority to keep the CRUD operations simple for a coding test. Keep essential foreign keys (category_id, status_id, created_by, assigned_to) in the 'tasks' table. Provide the exact SQL CREATE TABLE script with some mock data."
