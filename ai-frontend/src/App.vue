@@ -55,7 +55,7 @@ const tasks = ref([
 
       <div class="p-6">
         <a href="#" class="flex items-center gap-3 text-gray-500 dark:text-gray-400 hover:text-gray-800 dark:hover:text-white font-medium transition-colors">
-          <span>🚪</span> Logout
+          <span></span> Logout
         </a>
       </div>
     </aside>
