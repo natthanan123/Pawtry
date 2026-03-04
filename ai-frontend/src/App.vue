@@ -1,5 +1,5 @@
 <script setup>
-import { ref, watch } from 'vue'
+import { ref } from 'vue'
 
 // ระบบ Dark Mode Toggle
 const isDarkMode = ref(false)
@@ -47,10 +47,7 @@ const tasks = ref([
         </div>
       </div>
       
-      <nav class="flex-1 px-4 py-6 space-y-1">
-        <a href="#" class="flex items-center gap-3 px-4 py-2.5 text-gray-600 dark:text-gray-400 hover:bg-gray-50 dark:hover:bg-gray-700 rounded-lg font-medium transition-colors">
-          <span>📊</span> Dashboard
-        </a>
+      <nav class="flex-1 px-4 py-6">
         <a href="#" class="flex items-center gap-3 px-4 py-2.5 bg-blue-600 text-white rounded-lg font-medium shadow-sm transition-all">
           <span>✓</span> Tasks
         </a>
@@ -106,7 +103,6 @@ const tasks = ref([
 
       <div class="flex-1 overflow-x-auto p-8">
         <div class="flex gap-6 h-full items-start min-w-max">
-          
           <div v-for="col in columns" :key="col.id" class="w-[340px] flex-shrink-0 flex flex-col">
             <div class="flex items-center justify-between mb-4">
               <div class="flex items-center gap-2.5">
